@@ -1,0 +1,76 @@
+#todo-list {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #new-task {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #add-task {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  /* Change font and text color */
+#todo-list {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.task:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.delete-task {
+  background-color: #f44336;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+  float: right;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+form {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#add-task {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+#add-task:hover {
+  background-color: #3e8e41;
+}
